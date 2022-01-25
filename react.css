@@ -1,0 +1,75 @@
+.items{
+    display: flex;
+    /* background-color: red; */
+    flex-flow: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: 200px;
+    /* border: 0.5px solid rgb(0, 0, 0) */
+}
+
+.food{
+    display: flex;
+    /* background-color: blue; */
+    flex-flow: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.order-button{
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    color: rgb(226, 12, 12);
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgb(94, 94, 94)
+    
+}
+
+.menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.order-food{
+    display: flex;
+    /* background-color: orangered; */
+    flex-flow: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    width: 25%;
+
+}
+
+.value{
+    color: rgb(155, 155, 155);
+}
+
+.pic{
+    display: flex;
+    flex-flow: column;
+    width: 120px;
+    height: 60x;
+    /* margin-top: 100px; */
+    /* margin-left: 300px; */
+}
+
+.menu-top{
+    border: 0.5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 70px;
+
+}
+
+.nav-bar{
+    display: flex;
+    align-content: center;
+    color: rgb(189, 59, 12);
+    font-size: 280px;
+    margin-left: 250px;
+}
